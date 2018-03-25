@@ -1,0 +1,155 @@
+body,ul,li{
+    margin: 0;
+    padding: 0;
+}
+input{
+    padding: 0;
+    outline: none;
+}
+/* nav */
+.nav{
+    width: 100%;
+    height: 150px;
+    background: #f6f6f1;
+    position: relative;
+    margin-bottom: 40px;
+    overflow: hidden;
+    zoom: 1;
+}
+.nav-content{
+    width: 1040px;
+    height: 60px;
+    margin: 50px auto 0;
+    position: relative;
+}
+.nav-content img{
+    position: absolute;
+    top: 16px;
+    float: left;
+}
+.search{
+    position: absolute;
+    top: 15px;
+    left: 150px;
+    float: left;
+}
+#q{
+    width: 470px;
+    height: 34px;
+    text-indent: 20px;
+    float: left;
+    background: #ffffff;
+    border: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    box-shadow: 3px 3px 5px #8d8181;
+}
+#btn{
+    width: 50px;
+    height: 34px;
+    float: left;
+    border: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background: #8d8181;
+    color: #ffffff;
+    box-shadow: 3px 3px 5px #8d8181;
+    cursor: pointer;
+}
+/* wapper */
+.wapper{
+    width: 100%;
+    background: #ffffff;
+    position: relative;
+    margin-bottom: 40px;
+    overflow: hidden;
+    zoom: 1;
+}
+.wapper-content{
+    width: 1040px;
+    margin: 0 auto;
+    position: relative;
+}
+.wapper-content h1{
+    font-size: 30px;
+    color: #494949;
+    margin: 15px 0 30px;
+}
+li{
+    list-style: none;
+    float: left;
+    margin-bottom: 30px;
+}
+.book-cover{
+    width: 100px;
+    max-height: 150px;
+    margin-right: 20px;
+    float: left;
+}
+.book-detail{
+    width: 595px;
+    height: 150px;
+    position: relative;
+    float: left;
+}
+.book-title{
+    font-size: 17px;
+    color:#6666b0;
+    font-weight: 600;
+}
+.book-line2{
+    margin: 15px 0;
+}
+.bigstar0,.bigstar10,.bigstar15,.bigstar20,.bigstar25,.bigstar30,.bigstar35,.bigstar40,.bigstar45,.bigstar5,.bigstar50{
+    width: 75px;
+    height: 15px;
+    overflow: hidden;
+    background: url("../img/ic_rating_m.png");
+    display: inline-block;
+}
+.book-source{
+    font-size: 17px;
+    color:#e09015;
+}
+.book-totle{
+    font-size: 17px;
+    color: #7f667f;
+}
+.book-author{
+    font-size: 17px;
+    color: #999999;
+}
+/* 分数显示 */
+.bigstar50{
+    background-position: 0 0;
+}
+.bigstar45{
+    background-position: 0 -15px;
+}
+.bigstar40{
+    background-position: 0 -30px;
+}
+.bigstar35{
+    background-position: 0 -45px;
+}
+.bigstar30{
+    background-position: 0 -60px;
+}
+.bigstar25{
+    background-position: 0 -75px;
+}
+.bigstar20{
+    background-position: 0 -90px;
+}
+.bigstar15{
+    background-position: 0 -105px;
+}
+.bigstar10{
+    background-position: 0 -120px;
+}
+.bigstar5{
+    background-position: 0 -135px;
+}
+.bigstar0{
+    background-position: 0 -150px;
+}

@@ -1,12 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>瓣豆读书</title>
+    <link type="text/css" rel="stylesheet" href="css/main.css" />
 </head>
+
 <body>
-    
+
+    <div class="nav">
+        <div class="nav-content">
+            <img src="img/nav-logo.png" alt="瓣豆读书" class="nav-logo">
+            <div class="search">
+                <input type="text" id="q" placeholder="书名、作者、ISBN" autocomplete="off">
+                <input type="submit" id="btn" value="搜索">
+            </div>
+        </div>
+    </div>
+    <div class="wapper">
+        <div class="wapper-content">
+            <h1 id="result">搜索</h1>
+            <div class="showlist">
+                <ul id="list">
+                    <!-- <li class="item">
+                        <img class="book-cover" src="img/test.jpg" />
+                        <div class="book-detail">
+                            <div class="book-line1">
+                                <span class="book-title">title</span>
+                            </div>
+                            <div class="book-line2">
+                                <span class="book-icon"></span>
+                                <span class="book-source">7.7</span>
+                                <span class="book-total">(50人评价)</span>
+                            </div>
+                            <div class="book-line3">
+                                <span class="book-author">ほしのあき / 西田幸樹 / ２０１０ / ０００＋税</span>
+                            </div>
+                        </div>
+                    </li> -->
+                
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <script src="js/search.js"></script>
 </body>
+
 </html>
